@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+<style>
+	.container {
+		width: 90%;
+		max-width: 500px;
+		margin: 0px auto;
+		margin-top: 300px;
+		border: 1px solid gray;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Registration Form</h2>
+		<form action="register" method="POST">
+			<table>
+				<tr>
+					<td>Enter name</td>
+					<td><input type="text" name="name"/></td>
+				</tr>
+				<tr>
+					<td>Enter email</td>
+					<td><input type="email" name="email"/></td>
+				</tr>
+				<tr>
+					<td>Enter mobile</td>
+					<td><input type="number" name="mobileno"/></td>
+				</tr><tr>
+					<td>Select gender</td>
+					<td><input type="radio" name="gender" value="male"/>Male<input type="radio" name="gender" value="female"/>Female</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="isInterested"/>Interested in course?</td>
+				</tr>
+				<tr>
+					<td>
+						<button type="submit">Submit</button>
+						<button type="reset">Reset</button>
+					</td>
+				</tr>
+			</table>
+	    </form>
+	</div>
+</body>
+</html>
