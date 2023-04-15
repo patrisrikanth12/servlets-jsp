@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page errorPage="error-page.jsp"%>
+<%@ taglib uri="/WEB-INF/mytags.tld" prefix="t" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,5 +19,6 @@
    		int n2 = Integer.parseInt(num2);
    %>
    <h1 class="text-center my-3">Result is <%= n1/n2 %></h1>
+   <t:MyTag color="teal"></t:MyTag>
 </body>
 </html>
