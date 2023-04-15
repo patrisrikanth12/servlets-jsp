@@ -30,7 +30,6 @@
 		
 		<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 		
-		
 		<c:set var="name" value="Srikanth"></c:set>
 		
 		<p><c:out value="${name}"></c:out> </p>
